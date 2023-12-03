@@ -148,13 +148,15 @@ class Studente implements W{
     
     
     respira(): void {
-        throw new Error("Method not implemented.")
+        console.log("Studente respira");
     }
+
     mangia(): void {
-        throw new Error("Method not implemented.")
+        console.log("Studente mangia");
     }
+
     saluta(): void {
-        throw new Error("Method not implemented.")
+        console.log("Studente saluta");
     }
     
 }
